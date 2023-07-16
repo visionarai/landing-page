@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  line-height: normal;
+  background-color: var(--m3-sys-light-secondary-container);
+  width: 100vw;
+  height: 100vh;
+  color: var(--m3-key-colors-primary);
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+:root {
+  /* fonts */
+  --font-nunito: Nunito;
+  --font-syne: Syne;
+
+  /* Colors */
+  --m3-sys-light-secondary-container: #d6e4f7;
+  --m3-sys-light-primary: #00629f;
+  --m3-sys-light-on-primary: #fff;
+  --m3-key-colors-primary: #04395e;
+
+  /* Paddings */
+  --padding-smi: 0.81rem;
+}
